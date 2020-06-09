@@ -324,7 +324,7 @@
 		}
 	a:hover {
 		text-decoration:none;
-		border-bottom: 0.15em solid ;		
+		border-bottom: 0.10em solid ;		
 		}
 	a:active {
 		text-decoration:none;
@@ -339,13 +339,13 @@
 		}
 	.footnotes a:hover {
 		text-decoration:none;
-		border-bottom: 0.15em solid ;		
+		border-bottom: 0.10em solid ;		
 		}
 	.footnotes a:active {
 		text-decoration:none;
 		}
 	.current {
-		border-bottom: 0.15em solid ;		
+		border-bottom: 0.10em solid ;		
 		}	
 
 
