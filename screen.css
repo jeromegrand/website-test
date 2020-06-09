@@ -1,0 +1,372 @@
+/* @font-face */
+
+
+@font-face {
+    font-family: 'SourceSansProSemiboldItalic';
+    src: url('SourceSansPro-SemiboldIt-webfont.eot');
+    src: url('SourceSansPro-SemiboldIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SourceSansPro-SemiboldIt-webfont.woff') format('woff'),
+         url('SourceSansPro-SemiboldIt-webfont.ttf') format('truetype'),
+         url('SourceSansPro-SemiboldIt-webfont.svg#SourceSansProSemiboldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProSemibold';
+    src: url('SourceSansPro-Semibold-webfont.eot');
+    src: url('SourceSansPro-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SourceSansPro-Semibold-webfont.woff') format('woff'),
+         url('SourceSansPro-Semibold-webfont.ttf') format('truetype'),
+         url('SourceSansPro-Semibold-webfont.svg#SourceSansProSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+	/* end @font-face */
+
+
+/* reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: normal;
+		}
+
+	ol, ul {
+		list-style: none;
+		}
+
+	blockquote, q {
+		quotes: none;
+		}
+		
+	strong, b, i, em {
+		font-family: 'SourceSansProSemiboldItalic';
+		}
+
+				/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+		}
+
+	/* end reset */
+
+
+/* page structure */
+
+	.row {
+		max-width: 44.4444em; /* 800/16 = 50 <=> /18*/
+		min-width:0;
+		margin: 0 auto;
+		padding: 1.3333em 0 4em 0; 
+		background-color: white;
+		/*
+		border-top: 0.075em solid #4c4c4c;
+		border-right: 0.15em solid #4c4c4c;
+		border-bottom: 0.15em solid #4c4c4c;
+		border-left: 0.075em solid #4c4c4c;
+		*/
+		}
+		
+	.col {
+		min-height: 1.33333em; /* 1.3333 x 18 = 24 */
+		position:relative;
+		margin: 0 auto; 
+		padding: 0 1.7778em; /* 32/16 = 2 <=> /18*/
+		}
+		
+	.twelve {
+		max-width: 40.8888em; /* 736/16 = 46 <=> /18*/
+		}
+
+	.eight {
+		max-width: 26.6666em; /* 480/16 = 30 <=> /18*/
+		}
+		
+	.three {
+		max-width: 8.8889em; /* 160/16 = 10 <=> /18*/
+		}
+
+
+	.fright {
+		text-align: right;
+	}
+	
+	.fleft {
+		text-align: left;
+	}
+	/* end page structure */
+
+
+/* type setting */
+
+	body {
+		font-family: 'SourceSansProSemibold', "Sans Serif";
+		}
+		
+	p, ul { 
+/* 		font-family: Georgia, serif;
+		font-size: 0.8em;
+		line-height: 1.25em;   */
+		text-indent: 1.7778em;
+		}
+
+	h2, h3, h4, h5 {
+		margin: 0 3em 0 1.7778em;	
+		font-family: 'SourceSansProSemiboldItalic';
+		}
+
+	h6 {
+		margin: 0 3em 0 1.7778em;	
+		}
+		
+	h1	{
+		padding: 0 0 0 1.7778em;		
+		}
+
+	h2	{
+		padding: 2.6667em 0 1.3333em 0;
+		}
+
+	h3	{
+		padding: 1.3333em 0 0 0;
+		}
+
+	h4	{
+		padding: 0 0 1.3333em 0;
+		}
+	h5	{
+		padding: 0;
+		}
+
+	#accueil h1 {
+		padding: 0 0 0 1.7778em;		
+	}
+
+					/* lists and such */
+	
+	ul {
+		list-style-type:square; 
+		list-style-position: inside;
+		padding: 0.6667em 0 0.6667em 0;
+		}
+	ul li {
+		padding-left: 1.7778em;
+		text-indent: -0.8889em;
+		}
+
+	ol {
+		list-style: decimal;
+		list-style-position: inside;
+		padding: 0.6667em 0 0.6667em 0;
+		}
+	ol li {
+		padding-left: 1.7778em;
+		text-indent: -1em;
+		}
+
+
+	ul ul, ol ol, ul ol, ol ul {
+	padding: 0;
+		}
+
+	#accueil ul {
+		list-style: none;
+		padding: 0;
+		}
+	#accueil ul li {
+		list-style: none;
+		padding: 0;
+		text-indent: 0;
+		padding-left: 1.7778em;
+		}
+		
+	#navigation ul {
+		text-indent: 0;
+		list-style: none;
+		padding: 0;
+		}
+	#navigation ul li {
+		display: inline;
+		margin: 0 0.8889em 0 0;
+		list-style: none;	
+		padding: 0;
+		text-indent: 0;
+		}
+
+
+	ul.children {
+		padding: 0;
+		}
+	ul.children li {
+		list-style: none;
+		text-indent: 1.7778em;
+		padding: 0;
+		}
+	img p {
+		text-indent: 0;
+	}
+	
+	img {
+		max-width: 100%;
+	}
+	
+	object {
+		max-width: 100%;
+		overflow: hidden;
+	}
+					/* blockquotes & notes*/
+	
+	
+	blockquote blockquote p {		/* double for notes*/
+		color: #9d9d9d;
+		text-indent: 0;
+		margin: 0;
+		padding: 0;
+		}
+		
+
+	.footnotes ol, .footnotes ol li, .footnotes ol li p {
+		color: #9d9d9d;
+		text-indent: 0;
+		margin: 0;
+		padding: 0;
+		}	
+
+	sub, sup {
+  /* Specified in % so that the sup/sup is the
+     right size relative to the surrounding text */
+  		font-size: 75%;
+  /* Zero out the line-height so that it doesn't
+     interfere with the positioning that follows */
+  		line-height: 0;
+  /* Where the magic happens: makes all browsers position
+     the sup/sup properly, relative to the surrounding text */
+		position: relative;
+  /* Note that if you're using Eric Meyer's reset.css, this
+     is already set and you can remove this rule */
+  		vertical-align: baseline;
+		}
+ 
+	sup {
+  /* Move the superscripted text up */
+		top: -0.5em;
+		}
+	sub {
+  /* Move the subscripted text down, but only
+     half as far down as the superscript moved up */
+		bottom: -0.25em;
+		}
+		
+					/* headers */
+					/* italics & emphasis */
+
+
+	/* end type setting */
+
+
+
+/* color */
+
+	body {color: #4c4c4c;}
+	
+	.realistic {color:#BE0027;}
+	.introduction {color:#CE8424;}
+	.reperes {color:#D4C714;}
+	.transformations {color:#92A72F;}
+	.echanges {color:#3F9843;}
+	.usages {color:#2F7770;}
+	.environnement {color:#3785BD;}
+	.bases {color:#3A4894;}
+	.glossaire {color:#740C77;}
+	.appendices {color:#A90D4B;}
+	.weblogs {color:#AD5E43;}
+	.etcetera {color:#9d9d9d;}
+	.textblack {color:#4c4c4c;}
+	
+	
+	.bg-realistic {background-color:#BE0027;}
+	.bg-introduction {background-color:#CE8424;}
+	.bg-reperes {background-color:#D4C714;}
+	.bg-transformations {background-color:#92A72F;}
+	.bg-echanges {background-color:#3F9843;}
+	.bg-usages {background-color:#2F7770;}
+	.bg-environnement {background-color:#3785BD;}
+	.bg-bases {background-color:#3A4894;}
+	.bg-glossaire {background-color:#740C77;}
+	.bg-appendices {background-color:#A90D4B;;}
+	.bg-weblogs {background-color:#AD5E43;}
+	.bg-etcetera {background-color:#9d9d9d;}
+	
+	/* end color */
+
+
+/* links */
+
+	a:link {
+		text-decoration:none;
+		}
+	a:visited {
+		text-decoration:none;
+		}
+	a:hover {
+		text-decoration:none;
+		border-bottom: 0.15em solid ;		
+		}
+	a:active {
+		text-decoration:none;
+		}
+	.footnotes a:link {
+		text-decoration:none;
+		color: #6F6FEE;
+		}
+	.footnotes a:visited {
+		text-decoration:none;
+		color: #9079A5;
+		}
+	.footnotes a:hover {
+		text-decoration:none;
+		border-bottom: 0.15em solid ;		
+		}
+	.footnotes a:active {
+		text-decoration:none;
+		}
+	.current {
+		border-bottom: 0.15em solid ;		
+		}	
+
+
+	/* default a:link {#OOOOEE} a:visited {#551A8B}
+	
+	/* end links */
+
+
+/* media queries */
+
+	@media only screen and (min-width: 10px) {
+		body {font-size:84.375%; line-height: 1.333;  }
+		}
+
+	@media only screen and (min-width: 432px) {
+		body {font-size: 112.5%; line-height: 1.333; /*background-color: #c0cdd1*/; margin-top: 1.333em; margin-bottom: 2.667em;} 
+		}
+
+/*
+	@media only screen and (min-width: 1296px) {
+		body {font-size: 126.5625%; line-height: 1.333;}
+		}
+		
+*/
