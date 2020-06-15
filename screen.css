@@ -134,7 +134,7 @@
 		}
 		
 	h1	{
-		padding: 0 0 0 1.7778em;		
+		padding: 1.3333em 0 2.6666em 1.7778em;
 		}
 
 	h2	{
@@ -191,7 +191,7 @@
 		list-style: none;
 		padding: 0;
 		text-indent: 0;
-		padding-left: 1.7778em;
+		margin-left: 3.5556em;
 		}
 		
 	#navigation ul {
@@ -206,7 +206,6 @@
 		padding: 0;
 		text-indent: 0;
 		}
-
 
 	ul.children {
 		padding: 0;
@@ -295,7 +294,6 @@
 	.appendices {color:#A90D4B;}
 	.weblogs {color:#AD5E43;}
 	.etcetera {color:#9d9d9d;}
-	.textblack {color:#4c4c4c;}
 	
 	
 	.bg-realistic {background-color:#BE0027;}
