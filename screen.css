@@ -133,7 +133,11 @@
 		margin: 0 3em 0 1.7778em;	
 		}
 		
-	h1	{
+	h1 {
+		padding: 0 0 0 1.7778em;		
+		}
+
+	.col h1	{
 		padding: 1.3333em 0 2.6666em 1.7778em;
 		}
 
@@ -152,9 +156,6 @@
 		padding: 0;
 		}
 
-	#accueil h1 {
-		padding: 0 0 0 1.7778em;		
-	}
 
 					/* lists and such */
 	
